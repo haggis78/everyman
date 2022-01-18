@@ -1,9 +1,8 @@
-
 <!doctype html>
   <html>
   <head>
     <meta charset="utf-8">
-    <title>Paper Rubric</title>
+    <title>Speech Rubric</title>
     <style>
 
     span.Heading1Char {
@@ -76,18 +75,19 @@
       </thead>
       <tr>
         <td>
-          <div class="CatTitle">Basic Requirements:</div>
-          <div class="CatDesc">Does the essay meet the goals of the assignment as laid out in the game book and the role sheet? Is it written in character? Does it reflect the historical context in tone, manner, and expression?</div>
+          <div class="CatTitle">Basic Expectations:</div>
+          <div class="CatDesc">Does the speech meet all the specific expectations of the character assignment? 
+          (Note that all following categories may be overriden by particular character requirements.)</div>
         </td>
-        <td><input class="CatValue" type="text" name="basic-requirements" id="basic-requirements"></td>
+        <td><input class="CatValue" type="text" name="basic-expectations" id="basic-expectations"></td>
         <td width="17%">
           <div class="GrOption">0</div>
           <div class='GrOption'>5</div>
-          <div class="GrDesc">None met. Zero if plagiarized.</div> 
+          <div class="GrDesc">Met none; zero if plagiarized.</div> 
         </td>
         <td width="17%">
           <div class="GrOption">6</div>
-          <div class="GrDesc">One expectation met or more than one imperfectly so.</div>
+          <div class="GrDesc">One expectation met.</div>
         </td>
         <td width="17%">
           <div class="GrOption">7</div>
@@ -105,164 +105,118 @@
       </tr>
       <tr>
         <td>
-          <div class="CatTitle">Thesis:</div>
-          <div class="CatDesc">Does the essay develop a clear thesis in keeping with the assignment?</div>
+          <div class="CatTitle">Delivery:</div>
+          <div class="CatDesc">Does the speaker employe effective voice inflection, eye contact, and hand gestures? Makes good connection with audience?</div>
         </td>
-        <td><input class="CatValue" type="text" id="thesis"></td>
+        <td><input class="CatValue" type="text" id="delivery"></td>
         <td>
           <div class="GrOption">0</div>
-          <div class="GrOption">12</div>
-          <div class="GrDesc">No clear thesis. Zero if plagiarized.</div>
+          <div class="GrOption">5</div>
+          <div class="GrDesc">Lack of preparation, unengaged; zero if plagiarized.</div>
         </td>
         <td>
-          <div class="GrOption">13</div>
-          <div class="GrOption">14</div>
-          <div class="GrDesc">Thesis is unclear, ill-defined, or merely self-evident.</div>
+          <div class="GrOption">6</div>
+          <div class="GrDesc">Barely engaged in good delivery practice; extensive "um"s; monotone.</div>
         </td>
         <td>
-          <div class="GrOption">15</div>
-          <div class="GrOption">16</div>
-          <div class="GrDesc">Thesis is present, but underdeveloped or overly vague or broad. Some parts of the paper do not connect clearly to the thesis.</div>
+          <div class="GrOption">7</div>
+          <div class="GrDesc">Some inflection, occasional eye contact, occasional gestures; some distracting "um"s.</div>
         </td>
         <td>
-          <div class="GrOption">17</div>
-          <div class="GrOption">18</div>
-          <div class="GrDesc">Clear arguable thesis that functions as the central, organizing idea of the paper, but may have minor lapses in development.</div>
+          <div class="GrOption">8</div>
+          <div class="GrDesc">Strong connection with audience; inflection, gestures, eye contact all present.</div>
         </td>
         <td>
-          <div class="GrOption">19</div>
-          <div class="GrOption">20</div>
-          <div class="GrDesc">Interesting, sophisticated thesis, to which every part of the essay clearly connects. Well-developed throughout.</div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div class="CatTitle">Sources/Core Texts:</div>
-          <div class="CatDesc">Does the essay make use of sources as specified by the game materials (usually core texts)? Are they well chosen? Is ample evidence used?</div>
-        </td>
-        <td><input class="CatValue" type="text" id="sources"></td>
-        <td>
-          <div class="GrOption">0</div>
-          <div class="GrOption">12</div>
-          <div class="GrDesc">No evidence supplied. Zero if plagiarized.</div>
-        </td>
-        <td>
-          <div class="GrOption">13</div>
-          <div class="GrOption">14</div>
-          <div class="GrDesc">One quotation or bit of evidence or more but poorly chosen.</div>
-        </td>
-        <td>
-          <div class="GrOption">15</div>
-          <div class="GrOption">16</div>
-          <div class="GrDesc">Two quotations or pieces of concrete evidence or more evidence but not compelling.</div>
-        </td>
-        <td>
-          <div class="GrOption">17</div>
-          <div class="GrOption">18</div>
-          <div class="GrDesc">Three well-chosen quotations or concrete evidence.</div>
-        </td>
-        <td>
-          <div class="GrOption">19</div>
-          <div class="GrOption">20</div>
-          <div class="GrDesc">Laced with compelling evidence.</div>
+          <div class="GrOption">9</div>
+          <div class="GrOption">10</div>
+          <div class="GrDesc">Unquestionably great delivery; audience captivated.</div>
         </td>
       </tr>
       <tr>
         <td>
           <div class="CatTitle">Argument:</div>
-          <div class="CatDesc">Does the essay make a strong and well-supported argument? Is it logically organized? Does it employ effective metaphors?</div>
+          <div class="CatDesc">Is the speech logically organized? Does it make a clear and persuasive argument?</div>
         </td>
         <td><input class="CatValue" type="text" id="argument"></td>
         <td>
           <div class="GrOption">0</div>
-          <div class="GrOption">12</div>
-          <div class="GrDesc">Random ideas; generally incoherent. Zero if plagiarized.</div>
+          <div class="GrOption">5</div>
+          <div class="GrDesc">Random ideas, generally incoherent; zero if plagiarized.</div>
         </td>
         <td>
-          <div class="GrOption">13</div>
-          <div class="GrOption">14</div>
-          <div class="GrDesc">Random ideas; generally incoherent.</div>
+          <div class="GrOption">6</div>
+          <div class="GrDesc">No clear order; lacking introduction and conclusion.</div>
         </td>
         <td>
-          <div class="GrOption">15</div>
-          <div class="GrOption">16</div>
+          <div class="GrOption">7</div>
           <div class="GrDesc">A little disordered; poorly employed evidence; rough transitions; no introduction or conclusion.</div>
         </td>
         <td>
-          <div class="GrOption">17</div>
-          <div class="GrOption">18</div>
+          <div class="GrOption">8</div>
           <div class="GrDesc">Coherent order; generally effective use of evidence; intro and conclusion.</div>
         </td>
         <td>
-          <div class="GrOption">19</div>
-          <div class="GrOption">20</div>
+          <div class="GrOption">9</div>
+          <div class="GrOption">10</div>
           <div class="GrDesc">Engaging intro; compelling conclusion; smooth transitions; logical order of points; effectivce use of quotes, evidence, and metaphors.</div>
         </td>
       </tr>
       <tr>
         <td>
-          <div class="CatTitle">Writing Style:</div>
-          <div class="CatDesc">Is the essay well written with an engaging and compelling style?</div>
+          <div class="CatTitle">Evidence:</div>
+          <div class="CatDesc">Does the speech quote from the core texts or use other appropriate evidence, statistics, examples?</div>
         </td>
-        <td><input class="CatValue" type="text" id="writing-style"></td>
+        <td><input class="CatValue" type="text" id="evidence"></td>
         <td>
           <div class="GrOption">0</div>
-          <div class="GrOption">12</div>
-          <div class="GrDesc">Nearly incomprehensible prose. Zero if plagiarized.</div>
-        </td>
-        <td>
-          <div class="GrOption">13</div>
-          <div class="GrOption">14</div>
-          <div class="GrDesc">Monotonous sentence structure; simple vocabulary; inconsistent voice.</div>
-        </td>
-        <td>
-          <div class="GrOption">15</div>
-          <div class="GrOption">16</div>
-          <div class="GrDesc">Sentence structure is
-            generally correct, but some sentences may be wordy, repetitive, or confusing. Inappropriate tone. Acceptable voice.</div>
-        </td>
-        <td>
-          <div class="GrOption">17</div>
-          <div class="GrOption">18</div>
-          <div class="GrDesc">Consistently uses words accurately and effectively. Sentences generally clear and focused, but may occasionally be wordy, vague, or ineffective. Good voice.</div>
-        </td>
-        <td>
-          <div class="GrOption">19</div>
-          <div class="GrOption">20</div>
-          <div class="GrDesc">Sentence structure is varied; sentences are focused and concise. Words chosen for precise meaning. Strong voice.</div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div class="CatTitle">Errors:</div>
-          <div class="CatDesc">Is the essay free of grammatical, typographical, formatting, and spelling errors?</div>
-        </td>
-        <td><input class="CatValue" type="text" id="errors"></td>
-        <td>
-          <div class="GrOption">0</div>
-          
-          <div class="GrOption">2</div>
-          <div class="GrDesc">Eight, nine, or ten or more errors per page. Zero if plagiarized.</div>
-        </td>
-        <td>
-          <div class="GrOption">3</div>
-          <div class="GrOption">4</div>
-          <div class="GrDesc">Six or seven errors per page.</div>
-        </td>
-        <td>
           <div class="GrOption">5</div>
+          <div class="GrDesc">No evidence; zero if plagiarized.</div>
+        </td>
+        <td>
           <div class="GrOption">6</div>
-          <div class="GrDesc">Four or five errors per page.</div>
+          <div class="GrDesc">One quotation or bit of evidence.</div>
         </td>
         <td>
           <div class="GrOption">7</div>
+          <div class="GrDesc">Two quotations or concrete evidence.</div>
+        </td>
+        <td>
           <div class="GrOption">8</div>
-          <div class="GrDesc">Two or three errors per page.</div>
+          <div class="GrDesc">Three quotations or concrete evidence.</div>
         </td>
         <td>
           <div class="GrOption">9</div>
           <div class="GrOption">10</div>
-          <div class="GrDesc">Error free or nearly so.</div>
+          <div class="GrDesc">Laced with evidence.</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="CatTitle">Counter Arguments:</div>
+          <div class="CatDesc">Does the speech address counter arguments? Or does the speaker effectively answer questions and offer rebuttal?</div>
+        </td>
+        <td><input class="CatValue" type="text" id="counter-arguments"></td>
+        <td>
+          <div class="GrOption">0</div>
+          <div class="GrOption">5</div>
+          <div class="GrDesc">No counter-arguments addressed; unable or unwilling to respond to question and challenges in rebuttal; zero if plagiarized.</div>
+        </td>
+        <td>
+          <div class="GrOption">6</div>
+          <div class="GrDesc">Obvious counter-arguments not addressed; simple reiteration of argument in rebuttal.</div>
+        </td>
+        <td>
+          <div class="GrOption">7</div>
+          <div class="GrDesc">Counter-arguments addressed, but not effectively or charitably; mediocre rebuttal.</div>
+        </td>
+        <td>
+          <div class="GrOption">8</div>
+          <div class="GrDesc">Misses some counter-arguments in speech but responds well to challenges in rebuttal.</div>
+        </td>
+        <td>
+          <div class="GrOption">9</div>
+          <div class="GrOption">10</div>
+          <div class="GrDesc">Effectively anticipates and addresses counter arguments in speech; responds well to all questions; employs additional evidence as needed.</div>
         </td>
       </tr>
     </table>
@@ -345,6 +299,8 @@
   }
 
 function lettergrade(t) {
+  t = t * 2;
+
   if (t >= 95) 
     return "A";
   else if (t>= 90)
